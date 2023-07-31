@@ -1,0 +1,117 @@
+body{
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    /* overflow: unset; */
+    /* width: 100; */
+    
+    /* height: 344px; */
+    /* width: 234px; */
+    
+}
+
+.scoreanimate{
+    /* text-align: center; */
+    font-size: 100px;
+    margin-top: 203px;
+    margin-right: 450px;
+}
+
+.gameover{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 103px;
+}
+
+.scorecont{
+    color: #310202;
+    position: absolute;
+    top: 26px;
+    font-size: 35px;
+    right: 75px;
+    font-weight: bold;
+}
+
+.dino{
+    background-image: url(dino.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 94px;
+    /* overflow: unset; */
+    width: 185px;
+    position: absolute;
+    bottom: 0px;
+    left: 23px;
+}
+
+/* .gameover{
+    visibility: hidden;
+} */
+
+.monster{
+    background-image: url(dragon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92px;
+    width: 135px;
+    position: absolute;
+    /* overflow: unset; */
+    bottom: 0px;
+    /* left: 223px; */
+    right: 23px;
+}
+
+.dinoanimate{
+    animation: dino 1s linear;
+    /* overflow: unset; */
+}
+.dinol{
+    transition: left 0.4s ;
+    /* overflow: unset; */
+}
+
+.dinor{
+    transition: left 0.2s ;
+    /* overflow: unset; */
+}
+
+.monsteranimate{
+    animation: monster 6s linear infinite;
+    /* overflow: unset; */
+}
+
+/* @keyframes dino {
+    0%{
+        bottom: 0px;
+    }
+    50%{
+        bottom: 250px;
+    }
+    100%{
+        bottom: 0px;
+    }
+} */
+
+@keyframes dino {
+    0%{
+        bottom: 0px;
+    }
+    50%{
+        bottom: 250px;
+    }
+    100%{
+        bottom: 0px;
+    }
+}
+
+@keyframes monster {
+    0%{
+        left: 100vw;
+    }
+    100%{
+        left: -20vw;
+    }
+}
+
+
